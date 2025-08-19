@@ -16,7 +16,7 @@ const seedAdmin = async () => {
       const hashedPassword = await bcrypt.hash('admin@123', 10);
       const admin = new Admin({ username: 'admin@gmail.com', password: hashedPassword });
       await admin.save();
-      console.log('Admin seeded successfully');
+      console.log('Admin login successfully');
     }
   } catch (error) {
     console.error('Error seeding admin:', error);
