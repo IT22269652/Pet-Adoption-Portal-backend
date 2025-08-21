@@ -33,5 +33,3 @@ Use the frontend (or a tool like Postman) to interact with the API endpoints.
 Admins can manage users and posts, while users can manage their profiles.
 
 
-
-Other: CORS, Bcrypt
