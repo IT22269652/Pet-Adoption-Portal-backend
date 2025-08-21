@@ -4,6 +4,7 @@ import { connectDB } from './config/db.js';
 import UserRoutes from './routes/UserRoutes.js';
 import AdminRoutes from './routes/AdminRoutes.js';
 import PostRoutes from "./routes/PostRoutes.js";
+import CartRoutes from "./routes/CartRoutes.js";
 import cors from 'cors';
 
 const app = express();
@@ -21,6 +22,7 @@ connectDB();
 app.use('/api/users', UserRoutes);
 app.use('/api/admin', AdminRoutes);
 app.use("/api", PostRoutes);
+app.use("/api", CartRoutes);
 
 app.get("/", (req, res) => {
     res.send("Hello world!")
