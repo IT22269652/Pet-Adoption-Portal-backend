@@ -1,8 +1,5 @@
 Pet Adopt Portal - Backend
 
-*Overview:
-The Task Manager (TM) Backend is a Node.js and Express.js-based API that powers the Task Manager web application. It handles user management, post management, and admin authentication, working in tandem with a React frontend.
-
 *Features:
 
 User Management:
